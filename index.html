@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <style>
+        /* 页面背景和文字样式 */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* 博客容器样式 */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        /* 标题样式 */
+        h1 {
+            font-size: 2.5em;
+            color: #2d2d2d;
+            margin-bottom: 20px;
+        }
+
+        /* 段落样式 */
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* 图片容器样式 */
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        /* 每张图片的样式 */
+        .images img {
+            width: 300px; /* 设置图片的宽度 */
+            height: 200px; /* 设置图片的高度 */
+            object-fit: cover; /* 保持图片的比例，裁剪多余的部分 */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到我的博客</h1>
+        <p>这是一个示例博客页面，展示了一些美丽的图片和简洁的设计。</p>
+
+        <!-- 图片展示部分 -->
+        <div class="images">
+            <!-- 绝对路径的图片 -->
+            <img src="https://haowallpaper.com/link/common/file/getCroppingImg/16423165896871296" alt="Image 1">
+            <!-- 相对路径的图片 -->
+            <img src="image/img.png" alt="Image 2">
+        </div>
+    </div>
+</body>
+</html>
